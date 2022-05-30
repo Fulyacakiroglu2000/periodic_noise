@@ -1,8 +1,8 @@
 # periodic_noise
 removal salt and pepper noise and periodic noise
-.Firstly, we writed imread and made MATLAB saw the picture.The picture has got 
-salt and pepper noise,So we applied median filter and destroyed this noise.We wrote 
-imshow command and we showed in output window title as ‘noisless picture’.After that 
+Firstly, we writed imread and made MATLAB saw the picture.
+The picture has got salt and pepper noise,So we applied median filter and destroyed this noise.
+We wrote imshow command and we showed in output window title as ‘noisless picture’.After that 
 applied paddedsize function.This function helped us multiplication two the picture’s size.
 Fft command provided to taking Foruier Spectrum and converting to Frequency Domain.For 
 displaying this image,shifted and got abstract value.Purpose of this process getting rid of 
